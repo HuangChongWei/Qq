@@ -21,7 +21,7 @@ namespace CoreMvc5_NorthwindPagination.Controllers
         }
         public IActionResult Index(int id=1)
         {
-            int activePage = id; //目前所在頁
+            int activePage = id; ////目前所在頁
             int pageRows = 10;   //每頁幾筆資料
             //int totalRows = _ctx.Clothing.Count();   //計算總筆數
 
